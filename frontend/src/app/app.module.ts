@@ -14,7 +14,7 @@ import { AboutComponent } from './about/about.component';
 import { HomeComponent } from './home/home.component';
 import { Error404Component } from './error404/error404.component';
 import { DetailComponent } from './detail/detail.component';
-import { DinoCardComponent } from './dino-card/dino-card.component';
+import { ItemCardComponent } from './item-card/item-card.component';
 
 @NgModule({
   declarations: [
@@ -26,7 +26,7 @@ import { DinoCardComponent } from './dino-card/dino-card.component';
     HomeComponent,
     DetailComponent,
     Error404Component,
-    DinoCardComponent,
+    ItemCardComponent,
   ],
   imports: [
     BrowserModule,

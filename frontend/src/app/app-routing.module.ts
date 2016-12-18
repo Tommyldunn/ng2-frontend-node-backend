@@ -17,7 +17,7 @@ import { Error404Component } from './error404/error404.component';
         component: AboutComponent
       },
       {
-        path: 'dinosaur/:id',
+        path: 'item/:id',
         component: DetailComponent
       },
       {

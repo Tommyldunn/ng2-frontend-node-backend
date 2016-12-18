@@ -2,7 +2,7 @@ import { Component, OnInit } from '@angular/core';
 import { Title } from '@angular/platform-browser';
 
 import { DinosService } from '../core/dinos.service';
-import { Dino } from '../core/models/dino.model';
+import { Item } from '../core/models/item.model';
 import { FilterService } from '../core/filter.service';
 
 @Component({
@@ -12,11 +12,11 @@ import { FilterService } from '../core/filter.service';
   providers: [FilterService]
 })
 export class HomeComponent implements OnInit {
-  dinos: Dino[];
-  filteredDinos: Dino[];
+  items: Item[];
+  filteredDinos: Item[];
   error: boolean;
   loading: boolean;
-  pageName: string = 'Dinosaurs';
+  pageName: string = 'ITEMS';
   query: string = '';
 
   constructor(
@@ -24,11 +24,11 @@ export class HomeComponent implements OnInit {
     private dinosService: DinosService,
     private filterService: FilterService) { }
 
-  getDinos() {
-    this.dinosService.getAllDinos$()
+  getItems() {
+    this.dinosService.getAllItems$()
       .subscribe(
       res => {
-        this.dinos = res;
+        this.items = res;
         this.filteredDinos = res;
         this.loading = false;
       },
@@ -43,16 +43,16 @@ export class HomeComponent implements OnInit {
   ngOnInit() {
     this.titleService.setTitle(this.pageName);
     this.loading = true;
-    this.getDinos();
+    this.getItems();
   }
 
   filterDinos() {
-    this.filteredDinos = this.filterService.search(this.dinos, this.query);
+    this.filteredDinos = this.filterService.search(this.items, this.query);
   }
 
   resetQuery() {
     this.query = '';
-    this.filteredDinos = this.dinos;
+    this.filteredDinos = this.items;
   }
 
   get isLoaded() {
@@ -60,7 +60,7 @@ export class HomeComponent implements OnInit {
   }
 
   get noSearchResults() {
-    return this.dinos && !this.filteredDinos.length && this.query && !this.error;
+    return this.items && !this.filteredDinos.length && this.query && !this.error;
   }
 
 }

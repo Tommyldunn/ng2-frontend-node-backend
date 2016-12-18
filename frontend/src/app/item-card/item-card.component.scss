@@ -1,0 +1,38 @@
+.card {
+  position: relative;
+  img {
+    max-width: 100%;
+    background: linear-gradient(rgba(9, 2, 4, 0), #444);
+    opacity: .9;
+  }
+  .overlay {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 5px;
+    left: 0;
+    background-color: #333;
+    opacity: .3;
+  }
+  h3 {
+    position: absolute;
+    bottom: 20px;
+    left: 20px;
+    font-weight: 600;
+    color: #fff;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+  }
+  a {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    color: #fff;
+    text-decoration: none;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    &:hover {
+      text-decoration: underline;
+    }
+  }
+}

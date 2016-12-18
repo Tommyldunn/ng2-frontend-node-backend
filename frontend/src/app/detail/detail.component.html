@@ -2,24 +2,22 @@
   <app-loading *ngIf="loading"></app-loading>
   <div *ngIf="isLoaded">
 
-    <!-- Dinosaur details -->
-    <section *ngIf="dino" id="detail-content-dinosaur" class="panel panel-default">
+    <section *ngIf="item" id="detail-content-dinosaur" class="panel panel-default">
       <div class="panel-heading">
-        <h2 class="text-center">{{dino.name}}</h2>
+        <h2 class="text-center">{{ item.name }}</h2>
       </div>
-
+      {{ item.img }}
       <div class="panel-body">
-        <p class="lead" [innerHTML]="dino.info"></p>
+        <p class="lead" [innerHTML]="item.info"></p>
       </div>
 
       <div class="panel-footer">
-        <a routerLink="/">&larr; All Dinosaurs</a>
+        <a routerLink="/">&larr; All Items</a>
       </div>
     </section>
 
-    <!-- Error -->
     <p *ngIf="error" class="alert alert-danger">
-      <strong>Rawr!</strong> There was an error retrieving data for the dinosaur you requested.
+      There was an error retrieving data.
     </p>
   </div>
 

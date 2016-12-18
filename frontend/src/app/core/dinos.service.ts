@@ -4,8 +4,8 @@ import { Observable } from 'rxjs/Rx';
 import 'rxjs/add/operator/map';
 import 'rxjs/add/operator/catch';
 
-import { Dino } from './models/dino.model';
-import { DinoDetail } from './models/dino-detail.model';
+import { Item } from './models/item.model';
+import { ItemDetail } from './models/item-detail.model';
 
 @Injectable()
 export class DinosService {
@@ -13,16 +13,16 @@ export class DinosService {
 
   constructor(private http: Http) { }
 
-  getAllDinos$(): Observable<Dino[]> {
+  getAllItems$(): Observable<Item[]> {
     return this.http
-      .get(`${this.baseUrl}dinosaurs`)
+      .get(`${this.baseUrl}items`)
       .map(this.handleSuccess)
       .catch(this.handleError);
   }
 
-  getDino$(id: number): Observable<DinoDetail> {
+  getItem$(id: number): Observable<ItemDetail> {
     return this.http
-      .get(`${this.baseUrl}dinosaur/${id}`)
+      .get(`${this.baseUrl}item/${id}`)
       .map(this.handleSuccess)
       .catch(this.handleError);
   }
