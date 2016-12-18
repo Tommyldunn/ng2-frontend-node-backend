@@ -1,6 +1,6 @@
 # sample-nodeserver-dinos
 
-A small sample [nodejs](http://nodejs.org) server with dinosaurs!
+A small sample [nodejs](http://nodejs.org) server.
 
 ## Setup and Usage
 
@@ -13,39 +13,32 @@ A small sample [nodejs](http://nodejs.org) server with dinosaurs!
 
 The following public `GET` requests are currently available:
 
-### `/api/dinosaurs`
+### `/api/items`
 
-`GET`: returns an array of simple dinosaur objects with `id`s and `name`s, ie:
+`GET`: returns an array of simple item objects with `id`s and `name`s, ie:
 
 ```
 ...
 {
 	"id": 5,
-	"name": "Dracorex"
+	"name": "ITEM FIVE"
 },
 {
 	"id": 6,
-	"name": "Elasmosaurus"
+	"name": "ITEM SIX"
 }
 ...
 ```
 
-### `/api/dinosaur/:id`
+### `/api/item/:id`
 
-`GET`: returns an object with a dinosaur's expanded details, ie:
+`GET`: returns an object with a item's expanded details, ie:
 
 ```
 {
 	"id": 5,
-	"name": "Dracorex",
-	"pronunciation": "dray-ko-rex",
-	"meaningOfName": "dragon king",
-	"diet": "herbivorous",
-	"length": "estimated 4m",
-	"period": "Late Cretaceous",
-	"mya": "66",
-	"info": "<em>Dracorex hogwartsia</em> was discovered in the Hell Creek Formation in South Dakota and donated to the Children's Museum of Indianapolis in 2004. Its name was inspired by J.K. Rowling's Harry Potter series and the young visitors to the children's museum where it was displayed."
+	"name": "ITEM FIVE",
+	"info": "Lorem ipsum dolor sit amet, qui ex scripta adipisci urbanitas.",
+	"img": "img/url"
 }
 ```
-
-MIT license
