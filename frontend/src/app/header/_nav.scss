@@ -1,0 +1,70 @@
+.toggle-offcanvas {
+  position: relative;
+  z-index: 100;
+  display: inline-block;
+  width: 50px;
+  height: 50px;
+  padding: 23.5px 13px;
+  text-align: center;
+
+  span,
+  span:before,
+  span:after {
+    position: absolute;
+    display: block;
+    width: 24px;
+    height: 3px;
+    content: '';
+    background-color: #333;
+    border-radius: 1px;
+    transition: all 250ms ease-in-out;
+  }
+  span {
+    &:before {
+      top: -9px;
+    }
+    &:after {
+      bottom: -9px;
+    }
+  }
+  :host-context(.nav-open) & {
+    span {
+      background: transparent;
+
+      &:before,
+      &:after {
+        top: 0;
+      }
+      &:before {
+        transform: rotate(45deg);
+      }
+      &:after {
+        transform: rotate(-45deg);
+      }
+    }
+  }
+}
+
+
+.header .nav {
+  padding: $padding-screen-small;
+  box-shadow: inset -8px 0 8px -6px rgba(0,0,0,.2);
+
+  .active {
+    font-weight: bold;
+  }
+  &-list {
+    list-style: none;
+
+    a {
+      display: block;
+      padding: 6px;
+
+      &:hover,
+      &:active,
+      &:focus {
+        text-decoration: none;
+      }
+    }
+  }
+}

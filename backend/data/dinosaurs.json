@@ -1,0 +1,116 @@
+[
+	{
+		"id": 1,
+		"name": "ITEM ONE",
+		"img": "https://unsplash.it/1500/900?random",
+		"info": "Allosaurus was an apex predator in the Late Jurassic in North America."
+	},
+	{
+		"id": 2,
+		"name": "ITEM TWO",
+		"img": "154-145",
+		"info": "Named the 'deceptive lizard' because its skull was confused with those of other sauropods until 1909."
+	},
+	{
+		"id": 3,
+		"name": "ITEM THREE",
+		"img": "https://unsplash.it/1500/900?random",
+		"info": "Brachiosaurus was a large, North American sauropod dinosaur with an arch encircling its nasal opening."
+	},
+	{
+		"id": 4,
+		"name": "ITEM FOUR",
+		"img": "https://unsplash.it/1500/900?random",
+		"info": "Compsognathus was small and bipedal, roughly the size of a turkey. It lived in Europe and was the first dinosaur genus to be portrayed with feathers."
+	},
+	{
+		"id": 5,
+		"name": "ITEM FIVE",
+		"img": "https://unsplash.it/1500/900?random",
+		"info": "<em>Dracorex hogwartsia</em> was a pachycephalosaur that did not have a domed head. Instead, its skull was adorned with spikes and frills reminiscent of a dragon. A skull was discovered in the Hell Creek Formation in South Dakota and donated to the Children's Museum of Indianapolis in 2004. Its name was inspired by J.K. Rowling's Harry Potter series and the young visitors to the children's museum."
+	},
+	{
+		"id": 6,
+		"name": "ITEM SIX",
+		"img": "https://unsplash.it/1500/900?random",
+		"info": "Elasmosaurus was an aquatic dinosaur with an extremely long neck that likely fed on other smaller aquatic fauna like fish, molluscs, and squid. E.D. Cope mistakenly placed the skull of an Elasmosaurus on the much shorter tail rather than the extremely long neck."
+	},
+	{
+		"id": 7,
+		"name": "ITEM SEVEN",
+		"img": "https://unsplash.it/1500/900?random",
+		"info": "Giraffatitan was a large sauropod related to Brachiosaurus with huge nostrils and nasal openings in its skull."
+	},
+	{
+		"id": 8,
+		"name": "ITEM EIGHT",
+		"img": "https://unsplash.it/1500/900?random",
+		"info": "Indosuchus had a flattened crest on its skull."
+	},
+	{
+		"id": 9,
+		"name": "ITEM NINE",
+		"img": "https://unsplash.it/1500/900?random",
+		"info": "Jingshanosaurus was one of the last prosauropods, a long-necked herbivore able to walk on two legs."
+	},
+	{
+		"id": 10,
+		"name": "ITEM TEN",
+		"img": "https://unsplash.it/1500/900?random",
+		"info": "Khaan was an oviraptor with a parrot-like beak, discovered in Mongolia."
+	},
+	{
+		"id": 11,
+		"name": "ITEM ELEVEN",
+		"img": "https://unsplash.it/1500/900?random",
+		"info": "Minmi was a small, anklyosaurian, armored dinosaur discovered in Australia."
+	},
+	{
+		"id": 12,
+		"name": "ITEM TWELVE",
+		"img": "https://unsplash.it/1500/900?random",
+		"info": "Ouranosaurus was an iguanodont dinosaur in Africa. It had a large sail on its back supported by long, wide neural spines and an elnogated, flat skull."
+	},
+	{
+		"id": 13,
+		"name": "ITEM THRITEEN",
+		"img": "https://unsplash.it/1500/900?random",
+		"info": "Found in Canada and the USA, Parasaurolophus was a hadrosaur most famous for its long, elaborate cranial crest."
+	},
+	{
+		"id": 14,
+		"name": "ITEM FOURTEEN",
+		"img": "https://unsplash.it/1500/900?random",
+		"info": "Spinosaurus was one of the largest carnivorous dinosaurs to walk the Earth. Its diet consisted mostly of fish and the large spines on its back likely formed a sail."
+	},
+	{
+		"id": 15,
+		"name": "ITEM FIFTEEN",
+		"img": "https://unsplash.it/1500/900?random",
+		"info": "Tyrannosaurus is well-represented in both fiction and history with over 50 specimens discovered. It and was one of the last non-avian dinosaurs to exist before the extinction event. Tyrannosaurus had a massive skull and a long heavy tail."
+	},
+	{
+		"id": 16,
+		"name": "ITEM SIXTEEN",
+		"img": "https://unsplash.it/1500/900?random",
+		"info": "Found in the USA, Utahraptor resembled velociraptor but much larger, prompting Robert T. Bakker to pronounce it 'Spielberg's raptor' due to the velociraptors in the movie <em>Jurassic Park</em> being portrayed much larger than their historical counterparts."
+	},
+	{
+		"id": 17,
+		"name": "ITEM SEVENTEEN",
+		"img": "https://unsplash.it/1500/900?random",
+		"info": "Vulcanodon was a primitive sauropod that lived in southern Africa."
+	},
+	{
+		"id": 18,
+		"name": "ITEM EIGHTEEN",
+		"img": "https://unsplash.it/1500/900?random",
+		"info": "Xenoceratops had horns and a bony frill with elborate ornamentation of projections, knobs, and spikes."
+	},
+	{
+		"id": 19,
+		"name": "ITEM NINETEEN",
+		"img": "https://unsplash.it/1500/900?random",
+		"info": "An ornithopod dinosaur known only by a partial skull and postcranial fragments, not much about Zephyrosaurus has been discovered."
+	}
+]

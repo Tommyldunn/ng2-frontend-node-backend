@@ -1,0 +1,15 @@
+.layout-canvas {
+  background: #fff;
+}
+.content-wrapper {
+  padding: $padding-screen-small;
+
+  @include mq($large) {
+    max-width: 960px;
+    padding: $padding-screen-large;
+    margin: 0 auto;
+  }
+}
+.content-heading {
+  text-align: center;
+}
